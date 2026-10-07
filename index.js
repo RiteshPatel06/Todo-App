@@ -24,7 +24,6 @@ todoForm.addEventListener('submit', (e) => {
     console.log({ editTodoId, todoValue });
 
     if (editTodoId) {
-        // editing 
         todos = todos.map((todo) => {
             if (todo.id === Number(editTodoId)) {
                 return {
